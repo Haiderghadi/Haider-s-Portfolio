@@ -45,8 +45,12 @@ const WorkExperience = () => {
                   className="work-content_container group"
                 >
                   <div className="flex flex-col h-full justify-start items-center py-2">
-                    <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
+                    <div className="rounded-3xl w-16 h-16 p-0 bg-black-600">
+                      <img
+                        className="w-full h-full object-cover rounded-xl "
+                        src={item.icon}
+                        alt=""
+                      />
                     </div>
 
                     <div className="work-content_bar" />

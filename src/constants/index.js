@@ -11,8 +11,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: "Projects",
-    href: "#projects",
+    name: "Playground",
+    href: "/playground",
   },
   {
     id: 4,
@@ -21,6 +21,11 @@ export const navLinks = [
   },
   {
     id: 5,
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    id: 6,
     name: "Contact",
     href: "#contact",
   },
@@ -29,45 +34,117 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Mustafa Rampurawala",
+    position: "CEO of Matrix Software Solutions",
+    img: "assets/mustafa.jpeg",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Haider has shown consistent growth since joining the team. His initiative, problem-solving approach, and dedication to quality make him a promising developer. I’m confident he’ll go far in this field.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Sahil Akoliya",
+    position: "UI/UX Designer at Matrix Software Solutions",
+    img: "assets/sahil.jpeg",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Working with Haider has been smooth and productive. He quickly translates designs into responsive and pixel-perfect interfaces. His frontend skills and eagerness to learn make him a solid asset to the team.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
+    name: "Huzaifa Rampurawala",
+    position: "Senior Frontend Developer at Matrix Software Solutions",
+    img: "assets/huzaifa.jpeg",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Haider communicates effectively and always ensures frontend and backend integrations go smoothly. He handles tasks responsibly and is quick at debugging and resolving issues when they arise.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
+    name: "Krunal Ankoliya",
+    position: "Backend Developer at Matrix Software Solutions",
+    img: "assets/krunal.jpeg",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Haider is a reliable teammate who always delivers clean and efficient code. His understanding of React and attention to user experience has improved many of our internal tools. A great person to collaborate with.",
   },
 ];
 
+// export const clientReviews = [
+//   {
+//     id: 1,
+//     name: "Emily Johnson",
+//     position: "Marketing Director at GreenLeaf",
+//     img: "assets/review1.png",
+//     review:
+//       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+//   },
+//   {
+//     id: 2,
+//     name: "Mark Rogers",
+//     position: "Founder of TechGear Shop",
+//     img: "assets/review2.png",
+//     review:
+//       "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+//   },
+//   {
+//     id: 3,
+//     name: "John Dohsas",
+//     position: "Project Manager at UrbanTech ",
+//     img: "assets/review3.png",
+//     review:
+//       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+//   },
+//   {
+//     id: 4,
+//     name: "Ether Smith",
+//     position: "CEO of BrightStar Enterprises",
+//     img: "assets/review4.png",
+//     review:
+//       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+//   },
+// ];
+
 export const myProjects = [
+  {
+    title: "HostHaven - Vacation Rental Site",
+    desc: "A responsive vacation rental platform built with React.js and Tailwind CSS, featuring Mapbox integration, secure user authentication, and an intuitive admin panel.",
+    subdesc:
+      "Created a full-stack vacation rental web app using React.js and Tailwind CSS. HostHaven includes interactive Mapbox-powered maps for location-based property browsing, secure authentication for hosts and guests, and a robust admin panel for managing listings, users, and bookings. Designed with a responsive UI and scalable structure, the app delivers a smooth experience across devices and simplifies rental management for both travelers and property owners.",
+    // href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    texture: "/textures/project/hos.mp4",
+    logo: "/assets/hosthaven.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next Js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Mongo DB",
+        path: "/assets/mongodb.svg",
+      },
+      {
+        id: 3,
+        name: "Node Js",
+        path: "/assets/nodejs.svg",
+      },
+    ],
+  },
   {
     title: "Ghadi's - School Management App",
     desc: " School management app design with Next.js and Tailwind. Admin, teacher, student, and parent dashboards with responsive tables and animated charts.",
     subdesc:
       "Build a responsive school management app using Next.js and Tailwind CSS, featuring dashboards for admins, teachers, students, and parents. It includes dynamic tables, animated charts, role-based authentication, and optimized performance with SSR/ISR for seamless functionality across devices.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    // href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
     texture: "/textures/project/schoolmanagement.mp4",
     logo: "/assets/logo.png",
     logoStyle: {
@@ -242,24 +319,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: "Matrix Software Solutions",
+    pos: "React Developer",
+    duration: "Jan 2024 - June 2025",
+    title:
+      "Working on building and maintaining responsive web applications using React.js, JavaScript, and modern frontend tools.I focus on writing clean UI code, fixing bugs, and adding new features that improve user experience.Still learning every day — and excited to grow deeper into real-world development.",
+    icon: "/assets/matrix.jpeg",
+    animation: "salute",
+  },
+  {
+    id: 2,
     name: "Lucky Web Services",
     pos: "Web Developer Intern",
-    duration: "March 2024 - June 2024",
+    duration: "Oct 2023 - Dec 2023",
     title:
       "Designed and implemented a responsive web application optimized for multiple devices and browsers.Developed dynamic user interfaces using ReactJS (Next.js) and enhanced styling with TailwindCSS and Sass.Built a high-performance e-commerce platform focused on clean UI, reducing dependency for faster load times using pure CSS.Implemented secure user authentication using Auth.js, ensuring reliable access control.",
     icon: "/assets/developer.png",
     animation: "victory",
   },
   {
-    id: 2,
+    id: 3,
     name: "CodeClause",
     pos: "Web Developer Intern",
-    duration: "Oct 2023 - Nov 2023",
+    duration: "Aug 2023 - Sept 2023",
     title:
       "Learned and practiced web development fundamentals, including HTML, CSS, and JavaScript.Collaborated with senior developers on Git version control and front-end projects.Maintained responsive website compatibility across devices and browsers.",
     icon: "/assets/codeclause.png",
     animation: "clapping",
   },
 ];
-export const MARQUEE_TEXT =
-  "React, Next.js, Node, MongoDb, Tailwind, MySql, Javascript, Framer, Git, Typescript";

@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space my-20 " id="contact">
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
@@ -96,7 +96,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="Haider Ghadi"
+                placeholder="Enter your name"
               />
             </label>
 
@@ -109,7 +109,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="haiderghadi07@gmail.com"
+                placeholder="Enter your email address"
               />
             </label>
 
